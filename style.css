@@ -1,10 +1,10 @@
-/* Загальні стилі */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
-    position: relative; /* Додаємо для позиціонування плям */
+    position: relative; 
 }
 
 /* Градієнтні плями */
@@ -28,7 +28,7 @@ body .gradient-spot-10 {
     z-index: -1;
 }
 
-/* Пляма 1: Вгорі ліворуч */
+
 body .gradient-spot-1 {
     width: 300px;
     height: 300px;
@@ -38,7 +38,7 @@ body .gradient-spot-1 {
     opacity: 0.7;
 }
 
-/* Пляма 2: Посередині */
+
 body .gradient-spot-2 {
     width: 350px;
     height: 350px;
@@ -49,7 +49,7 @@ body .gradient-spot-2 {
     opacity: 0.6;
 }
 
-/* Пляма 3: Знизу справа */
+
 body .gradient-spot-3 {
     width: 300px;
     height: 300px;
@@ -59,7 +59,7 @@ body .gradient-spot-3 {
     opacity: 0.7;
 }
 
-/* Пляма 4: Вгорі справа */
+
 body .gradient-spot-4 {
     width: 280px;
     height: 280px;
@@ -69,7 +69,7 @@ body .gradient-spot-4 {
     opacity: 0.5;
 }
 
-/* Пляма 5: Внизу ліворуч */
+
 body .gradient-spot-5 {
     width: 320px;
     height: 320px;
@@ -79,7 +79,6 @@ body .gradient-spot-5 {
     opacity: 0.6;
 }
 
-/* Пляма 6: Зліва по центру */
 body .gradient-spot-6 {
     width: 280px;
     height: 280px;
@@ -90,7 +89,6 @@ body .gradient-spot-6 {
     opacity: 0.6;
 }
 
-/* Пляма 7: Вгорі по центру */
 body .gradient-spot-7 {
     width: 320px;
     height: 320px;
@@ -101,7 +99,6 @@ body .gradient-spot-7 {
     opacity: 0.5;
 }
 
-/* Пляма 8: Нижче по центру */
 body .gradient-spot-8 {
     width: 300px;
     height: 300px;
@@ -112,7 +109,6 @@ body .gradient-spot-8 {
     opacity: 0.6;
 }
 
-/* Пляма 9: Зліва знизу */
 body .gradient-spot-9 {
     width: 320px;
     height: 320px;
@@ -122,7 +118,6 @@ body .gradient-spot-9 {
     opacity: 0.5;
 }
 
-/* Пляма 10: Справа знизу */
 body .gradient-spot-10 {
     width: 280px;
     height: 280px;
@@ -132,19 +127,17 @@ body .gradient-spot-10 {
     opacity: 0.6;
 }
 
-/* Інші стилі */
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
-/* Хедер */
 .header {
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px 0;
     display: flex;
-    justify-content: flex-end; /* Розташування праворуч */
+    justify-content: flex-end; 
 }
 
 .navbar {
@@ -163,8 +156,8 @@ body .gradient-spot-10 {
 
 .nav-menu li a {
     text-decoration: none;
-    color: rgba(51, 51, 51, 0.7); /* Напівпрозорий текст */
-    font-size: 0.9rem; /* Зменшений розмір тексту */
+    color: rgba(51, 51, 51, 0.7); 
+    font-size: 0.9rem; 
     transition: color 0.3s ease;
 }
 
@@ -172,13 +165,12 @@ body .gradient-spot-10 {
     color: rgba(0, 123, 255, 0.9);
 }
 
-/* Hero Section */
 .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 0; /* Забезпечення відсутності нижнього відступу */
-    padding-bottom: 0; /* Прибрано внутрішній нижній відступ */
+    margin-bottom: 0; 
+    padding-bottom: 0; 
 }
 
 .hero-text {
@@ -220,34 +212,33 @@ body .gradient-spot-10 {
 .hero-image {
     flex: 1;
     display: flex;
-    justify-content: flex-end; /* Вирівнювання по правій стороні */
-    align-items: center; /* Центрування по вертикалі */
+    justify-content: flex-end; 
+    align-items: center; 
     transform: translate(10px, -290px);
-    border-radius: 10px; /* Зміщення зображення вправо і вгору */
+    border-radius: 10px;
 }
 
-/* Features */
 .features {
     display: flex;
-    justify-content: center; /* Центрування елементів по горизонталі */
-    align-items: flex-start; /* Вирівнювання по верхньому краю */
-    gap: 50px; /* Проміжок між елементами */
-    margin-top: -50px; /* Негативний верхній відступ для підняття іконок */
-    padding: 0; /* Забезпечення відсутності внутрішніх відступів */
-    position: relative; /* Для можливості точної позиціонування */
-    top: -170px; /* Піднімає всі іконки ближче до верху */
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 50px; 
+    margin-top: -50px; 
+    padding: 0; 
+    position: relative; 
+    top: -170px; 
 }
 
 .feature-item {
     text-align: center;
-    max-width: 250px; /* Обмеження ширини елемента */
-    margin: 0 auto; /* Центрування кожного елемента */
+    max-width: 250px; 
+    margin: 0 auto; 
 }
 
 .feature-item img {
     max-width: 60px;
     margin-bottom: 15px;
-    border-radius: 10px; /* Змінюйте значення для більшого чи меншого округлення */
+    border-radius: 10px; 
     
 }
 
@@ -266,7 +257,7 @@ body .gradient-spot-10 {
 
 .portfolio {
     margin: 50px auto;
-    max-width: 1200px; /* Центрування блоку */
+    max-width: 1200px; 
 }
 
 .portfolio-header {
@@ -287,7 +278,7 @@ body .gradient-spot-10 {
 .portfolio-items {
     display: flex;
     gap: 20px;
-    justify-content: center; /* Центрування елементів */
+    justify-content: center;
 }
 
 .portfolio-item {
@@ -295,7 +286,7 @@ body .gradient-spot-10 {
     flex: 1;
     overflow: hidden;
     border-radius: 10px;
-    max-width: 400px; /* Збільшення максимального розміру картинок */
+    max-width: 400px; 
 }
 
 .portfolio-item img {
@@ -331,7 +322,7 @@ body .gradient-spot-10 {
     color: #fff;
 }
 
-/* Cards (Blog Section) */
+
 .cards {
     display: flex;
     gap: 20px;
@@ -365,7 +356,7 @@ body .gradient-spot-10 {
     text-decoration: none;
 }
 
-/* Footer */
+
 footer {
     background: #f8f9fa;
     padding: 50px 0;
@@ -373,9 +364,9 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: center; /* Центрування контейнера */
+    justify-content: center; 
     gap: 20px;
-    transform: translateX(-190px); /* Зміщення вліво */
+    transform: translateX(-190px); 
 }
 
 .footer-column {
